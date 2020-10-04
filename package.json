@@ -1,0 +1,40 @@
+{
+  "name": "guide",
+  "version": "0.0.1",
+  "description": "guide for react",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "doc": "typedoc --mode modules --tsconfig tsconfig.json --out ./docs ./src",
+    "build": "npm run lint:fix && tsc --build tsconfig.json",
+    "lint": "tslint --project ./tsconfig.json",
+    "lint:fix": "tslint -c tslint.json --fix --project ./tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "loading",
+    "hoc",
+    "react"
+  ],
+  "author": "xiu",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "peerDependencies": {
+    "react": ">=15.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.50",
+    "@types/react-dom": "^16.9.5",
+    "tslint": "^5.18.0",
+    "typedoc": "^0.15.0",
+    "typescript": "^3.5.3"
+  }
+}

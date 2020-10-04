@@ -1,0 +1,28 @@
+
+.guide-wrap {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.guide-btn-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.guide-btn-action {
+    height: 100%;
+    background: #1166ff;
+    margin:0;
+    text-align: center;
+    padding: 0 1.5%;
+    line-height: 2;
+    border-radius: 6%;
+    color: white;
+}
+
